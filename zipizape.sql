@@ -7,7 +7,7 @@ CREATE TABLE clientes (
   Telefono varchar(20) NOT NULL 
 )CONSTRAINT CLIENTESPk1 PRIMARY KEY (Idcliente);
 
-INSERT INTO clientes VALUES ('001', 'roman', 'julio', 'av. Los chanchitos', '952365147');
+INSERT INTO clientes VALUES ('001', 'mallini', 'jack', 'av. Los chanchitos', '952365147');
 
 CREATE TABLE DocVenta (
   IdDocVenta int NOT NULL AUTO_INCREMENT,
